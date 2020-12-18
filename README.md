@@ -3,7 +3,7 @@
 ## What is this?
 This is an Alfred Workflow script, written by Jeffrey Smith 2016, which uses apple script language to convert language of selected text. Similar to what Punto Switcher does, but it's russian and can't be  trusted.
 
-Currently it supports Russian to English and English to Russian conversion.
+Currently it supports Russian to English and English to Russian conversion, and Ukrainian to English and English to Ukrainian conversion
 
 The script switches the language after conversion, so you can continue typing in the correct language. 
 It also restores your clipboard to previous state after conversion. 
@@ -19,6 +19,9 @@ My flow is like this:
 4) I press ALT + SHIFT + Z to convert 
 
 You can download the .scpt file to see how the script works in applescript and tune it to your liking. 
+
+## Ver 0.3
+Added support for Russian Mac layout conversion (RU/EN language Switcher.alfredworkflow). Added support for Ukrainian Mac layout conversion (UA/EN language Switcher).
 
 ## Ver 0.2
 Capital letters now converted to capital letters
